@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+h4{
+    color: black;
+    font-weight: bold;
+}
+
+h1{
+   background-color: black;
+   color: white;
+   font-size: 3vw;
+   font-weight: bold;
+   text-align: center;
+}
+
+.form{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form input{
+    border: 3px solid black;
+    outline: none;
+    padding: 2px 12px;
+}
+.addBtn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 2px 10px;
+    outline: none;
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 50px;
+}
+
+.delBtn{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.data{
+    width: 100%;
+    background-color:rgb(187, 185, 200);
+    color: black;
+    font-weight: bold;
+    margin-top: 5vw;
+}
+
+.data ul{
+    list-style: none;
+}
+
+.render{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.allBtn{
+    background-color: rgba(255, 0, 0, 0.716);
+    color: white;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px grey;   
+}
+
+
+
